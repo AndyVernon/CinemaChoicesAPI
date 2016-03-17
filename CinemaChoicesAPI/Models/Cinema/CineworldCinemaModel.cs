@@ -1,7 +1,16 @@
-﻿namespace CinemaChoicesAPI.Models.Cinema
+﻿using System.Collections.Generic;
+using System.Runtime.Serialization;
+
+namespace CinemaChoicesAPI.Models.Cinema
 {
-    public class CineworldCinemaModel : BaseCinemaModel
+    [DataContract]
+    public class CineworldCinemaModel
     {
-        public string Url { get; set; }
+        [DataMember]
+        public int id { get; set; }
+        [DataMember]
+        public string name { get; set; }
+        [DataMember]
+        public string cinema_url { get; set; }
     }
 }
