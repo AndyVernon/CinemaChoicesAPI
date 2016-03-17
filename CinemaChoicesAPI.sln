@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CinemaChoicesAPI", "CinemaChoicesAPI\CinemaChoicesAPI.csproj", "{B15F7687-B044-42AD-977A-4EF11E1DC2AB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PublishScripts", "PublishScripts", "{C761C8DF-7AFE-4F48-BDFF-59679D41F097}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Scripts", "Scripts", "{A35D410C-0E61-415C-A460-82D5A8929B88}"
+	ProjectSection(SolutionItems) = preProject
+		PublishScripts\Scripts\Deploy-AzureResourceGroup.ps1 = PublishScripts\Scripts\Deploy-AzureResourceGroup.ps1
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Templates", "Templates", "{CC609B7E-632B-496C-B907-E664D4DE92A3}"
+	ProjectSection(SolutionItems) = preProject
+		PublishScripts\Templates\CinemaChoicesAPI.json = PublishScripts\Templates\CinemaChoicesAPI.json
+		PublishScripts\Templates\CinemaChoicesAPI.param.dev.json = PublishScripts\Templates\CinemaChoicesAPI.param.dev.json
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B15F7687-B044-42AD-977A-4EF11E1DC2AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B15F7687-B044-42AD-977A-4EF11E1DC2AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B15F7687-B044-42AD-977A-4EF11E1DC2AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B15F7687-B044-42AD-977A-4EF11E1DC2AB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A35D410C-0E61-415C-A460-82D5A8929B88} = {C761C8DF-7AFE-4F48-BDFF-59679D41F097}
+		{CC609B7E-632B-496C-B907-E664D4DE92A3} = {C761C8DF-7AFE-4F48-BDFF-59679D41F097}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,29 @@
+{
+  "siteName": {
+    "value": "CinemaChoicesAPI"
+  },
+  "hostingPlanName": {
+    "value": "andyvernon"
+  },
+  "siteLocation": {
+    "value": "West Europe"
+  },
+  "sku": {
+    "value": "Free"
+  },
+  "workerSize": {
+    "value": "0"
+  },
+  "siteMode": {
+    "value": "Limited"
+  },
+  "computeMode": {
+    "value": "0"
+  },
+  "subscriptionId": {
+    "value": "9bbf9f59-1755-4508-8b3a-71d7df16bd42"
+  },
+  "resourceGroup": {
+    "value": "andyvernon"
+  }
+}
