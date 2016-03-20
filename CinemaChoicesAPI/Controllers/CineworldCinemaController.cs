@@ -1,15 +1,16 @@
 ﻿using CinemaChoicesAPI.Cineworld;
 using CinemaChoicesAPI.Models.Cinema;
 using System.Collections.Generic;
-using System.Web.Http;
 
 namespace CinemaChoicesAPI.Controllers
 {
-    public class CineworldCinemaController : ApiController
+    public class CineworldCinemaController : BaseCineworldController
     {
-        public IEnumerable<CineworldCinemaModel> GetCinemas()
+        public IEnumerable<CineworldCinemaModel> Get()
         {
-            return GetCineworldCinemasList.GetCinemaList();
+            return _getCineworldCinemasList.GetCinemaList();
         }
+
+        
     }
 }
