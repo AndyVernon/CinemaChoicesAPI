@@ -9,9 +9,7 @@ namespace CinemaChoicesAPI.Controllers
     {
         public IEnumerable<CineworldCinemaModel> GetCinemas()
         {
-            List<CineworldCinemaModel> cinemas = new List<CineworldCinemaModel>();
-            var test = GetCineworldCinemasList.GetCinemaList();
-            return cinemas;
+            return GetCineworldCinemasList.GetCinemaList();
         }
     }
 }
