@@ -20,6 +20,13 @@ namespace CinemaChoicesAPI
             // Web API routes
             config.MapHttpAttributeRoutes();
 
+            //TODO: See if we can specialise this route
+            config.Routes.MapHttpRoute(
+                name: "PerformanceApi",
+                routeTemplate: "api/{controller}/{cinemaId}/{filmEdi}/{date}",
+                defaults: new { controller = "CineworldPerformance" }
+            );
+
             config.Routes.MapHttpRoute(
                 name: "DefaultApi",
                 routeTemplate: "api/{controller}/{id}",
