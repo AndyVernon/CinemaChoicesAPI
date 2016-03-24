@@ -211,12 +211,10 @@
     <Compile Include="Cineworld\BaseCineworldList.cs" />
     <Compile Include="Cineworld\GetCineworldCinemasList.cs" />
     <Compile Include="Cineworld\GetCineworldFilmsList.cs" />
-    <Compile Include="Controllers\AccountController.cs" />
     <Compile Include="Controllers\CineworldCinemaController.cs" />
     <Compile Include="Controllers\CineworldFilmController.cs" />
     <Compile Include="Controllers\CineworldPerformanceController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
-    <Compile Include="Controllers\ValuesController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>

@@ -10,5 +10,16 @@ namespace CinemaChoicesAPI.Controllers
         {
             return _getCineworldFilmsList.GetFilmsForCinema(id);
         }
+
+        public IEnumerable<CineworldFilmModel> GetDetails(int id)
+        {
+            return _getCineworldFilmsList.GetFilmsForCinemaWithDetails(id);
+        }
+
+        public IEnumerable<CineworldFilmModel> Get()
+        {
+            return _getCineworldFilmsList.GetAllFilms();
+        }
+
     }
 }
