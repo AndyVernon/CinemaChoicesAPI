@@ -37,6 +37,7 @@ namespace CinemaChoicesAPI.Cineworld
                 cinema.Address = _cineworldHelpers.GetColumnValueAsStringOrEmptyString(row, 3);
                 cinema.Postcode = _cineworldHelpers.GetColumnValueAsStringOrEmptyString(row, 4);
                 cinema.Telephone = _cineworldHelpers.GetColumnValueAsStringOrEmptyString(row, 5);
+                cinema.Location = _postcodeApiReader.GetLocationForPostcode(cinema.Postcode);
                 cinemas.Add(cinema);
             }
             return cinemas;

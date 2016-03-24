@@ -220,6 +220,7 @@
     </Compile>
     <Compile Include="Helpers\CineworldHelpers.cs" />
     <Compile Include="Helpers\CineworldPerformanceTypeHelper.cs" />
+    <Compile Include="Postcode\PostcodeApiReader.cs" />
     <Compile Include="Models\AccountBindingModels.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\Cinema\CineworldCinemaModel.cs" />
@@ -227,6 +228,7 @@
     <Compile Include="Models\Cinema\CineworldPerformanceModel.cs" />
     <Compile Include="Models\Enums\CineworldPerformanceType.cs" />
     <Compile Include="Models\IdentityModels.cs" />
+    <Compile Include="Postcode\Models\Location.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Providers\ApplicationOAuthProvider.cs" />
     <Compile Include="Results\ChallengeResult.cs" />
