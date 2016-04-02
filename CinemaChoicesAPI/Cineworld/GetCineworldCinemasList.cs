@@ -1,7 +1,6 @@
 ﻿using System.Collections.Generic;
 using CinemaChoicesAPI.Models.Cinema;
 using System.Data;
-using System;
 
 namespace CinemaChoicesAPI.Cineworld
 {
